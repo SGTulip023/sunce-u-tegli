@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("../images/honey.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  
+  .navbar {
+  	background-color: #e16f02;
+  	
+  }
+  
+.navbar a {
+	color: black;
+}
+
+#top {
+	background-image: url("../images/banner.jpg");
+	background-size: cover;
+}
